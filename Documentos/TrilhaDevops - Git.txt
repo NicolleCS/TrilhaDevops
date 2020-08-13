@@ -1,0 +1,48 @@
+TRILHA DEVOPS - GIT/GITHUB
+
+git status - mostra as modificações a serem commitadas
+
+git init - utilizado para inicializar um repositório
+git init --bare - ele mostra que vai ser armazenado só as alterações não os arquivos em si
+//  Com este comando nós criamos um repositório que não terá a working tree, ou seja, não conterá uma cópia dos nossos arquivos. 
+// Como o repositório servirá apenas como servidor, para que outros membros da equipe sincronizem seus trabalhos, 
+// poupamos espaço de armazenamento desta forma
+
+git log - ele da informações dos commits
+git log --oneline - as informações de maneira mais resumida
+git log -p - as informações detalhadas com as alterações
+git log --help
+// https://devhints.io/git-log-format
+
+git config - pode ser utilizado com --local --global e pode configurar o email, user name, etc.
+
+arquivo .gitignore - colocar o nome do arquivo para que o git ignore as modificações do mesmo.
+
+git remote
+git remote add - Adicionou um repositório remoto 
+git remote -v
+git remote rename
+
+git clone (/c/Users/Arquivo)
+
+git push
+
+git pull
+
+git checkout branch
+git checkout -b nome - Cria a branch e já começa a usar ela
+git checkout -- nome - desfazer a alteração
+
+git reset HEAD arquivo
+
+// Com o git checkout nós desfazemos uma alteração que ainda não foi adicionada ao index ou stage, ou seja, 
+// antes do git add. Depois de adicionar com git add, para desfazer uma alteração, 
+// precisamos tirá-la deste estado, com git reset. Agora, se já realizamos o commit, o comando git revert pode nos salvar.
+
+git stash - salvando só para o momento, não subindo na produção
+git stash list
+git stash pop - tira da stash a ultima alteração e traz
+
+git diff  - verificar quais alterações foram realizadas em cada arquivo
+
+git tag -a - versionamento

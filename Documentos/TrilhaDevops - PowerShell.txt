@@ -1,0 +1,9 @@
+TRILHA DEVOPS - POWERSHELL
+
+WIN + R
+
+sc - para pesquisar e alterar estados de serviços.
+
+verbo + objeto
+
+-eq = equal (==)
