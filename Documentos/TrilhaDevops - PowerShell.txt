@@ -1,4 +1,4 @@
-TRILHA DEVOPS - POWERSHELL
+﻿TRILHA DEVOPS - POWERSHELL
 
 WIN + R
 
@@ -7,3 +7,34 @@ sc - para pesquisar e alterar estados de serviços.
 verbo + objeto
 
 -eq = equal (==)
+
+Command Precedence = .\
+// Utilizado para executar um script .bat
+
+Ctrl + L = Clear
+
+GetType()
+
+Split(';')
+
+ | Get-Member = lista todos os métodos possíveis da variável
+
+Get-Alias = Pega os apelidos dos comandos
+
+* = coringa para fazer a pesquisa de algo que vc não saiba o nome inteiro
+
+-WhatIf = sweet argument, diz o que o comando faria caso fosse executado
+
+Get-command -? [comando]
+
+Get-help
+
+ps1 - extensão do scrip powershell
+
+Get-ExecutionPolicy
+
+"{0:N2}" -f (conta)
+
+Where-Object = ?
+
+Comentário = <# #> / ##
