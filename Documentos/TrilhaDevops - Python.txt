@@ -16,3 +16,5 @@ print("", end="") - consegue definir um final
 type()
 
 Int() - Para converter uma variável para Integer
+
+Range(inicio,fim,de quanto em quanto)
