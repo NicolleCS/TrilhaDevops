@@ -1,0 +1,18 @@
+Mover a linha de código atual (ou o bloco selecionado) via Shift + Ctrl + setas (Shift + Cmd + setas)
+Duplicar uma linha de código (ou o bloco selecionado) via Ctrl + D (Cmd + D)
+Remover uma linha de código (ou o bloco selecionado) via Ctrl + Y (Ctrl + Backspace no Mac)
+Comentar ou descomentar uma linha de código (ou bloco selecionado) via Ctrl + / (Cmd + /) e Shift + Ctrl + D para comentário de bloco para o código selecionado.
+Otimizar os imports via Ctrl + O (Ctrl + Alt + O).
+Encontrar no arquivo atualmente aberto via Alt + F3 e navegar para o próximo com F3 e para o anterior com Shift + F3.
+Fazer substuições com Ctrl + R (Cmd + R).
+Habilitar/mostrar quebras de linha (soft-wraps), desabilitadas por padrão.
+Colar da pilha via Shift + Ctrl + V (Shift + Cmd + V).
+Navegar entre as abas abertas via Alt + setas (Shift + Tab).
+
+print("", sep="") - consegue definir um separador
+
+print("", end="") - consegue definir um final
+
+type()
+
+Int() - Para converter uma variável para Integer
