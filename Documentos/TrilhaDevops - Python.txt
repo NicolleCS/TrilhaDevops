@@ -18,3 +18,8 @@ type()
 Int() - Para converter uma variável para Integer
 
 Range(inicio,fim,de quanto em quanto)
+
+Encapsulamento
+private == __ // No python isso significa que o atributo é privado, e não será acessado diretamente.
+
+
